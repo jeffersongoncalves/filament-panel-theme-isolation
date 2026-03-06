@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-03-05
+## [2.0.0] - 2026-03-05
 
 ### Added
 
@@ -17,3 +17,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CSS variable `--panel-id` injection for JavaScript-side panel identification
 - Publishable config and views
 - Plugin class for optional `->plugin()` registration
+- Filament v4 compatibility (Tailwind CSS v4, Heroicon enums)

@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/1.x/art/jeffersongoncalves-filament-panel-theme-isolation.png)
+![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/2.x/art/jeffersongoncalves-filament-panel-theme-isolation.png)
 
 </div>
 
@@ -23,7 +23,7 @@ Based on [filamentphp/filament#19417](https://github.com/filamentphp/filament/pu
 ## Installation
 
 ```bash
-composer require jeffersongoncalves/filament-panel-theme-isolation:"^1.0"
+composer require jeffersongoncalves/filament-panel-theme-isolation:"^2.0"
 ```
 
 That's it! The plugin works automatically via Laravel auto-discovery. No additional configuration is needed.
@@ -66,7 +66,7 @@ php artisan vendor:publish --tag=filament-panel-theme-isolation-views
 
 ## Maintenance Notes
 
-The overridden views are copies of Filament's original views with minimal patches (marked with `{{-- [ADICIONADO] panel-theme-isolation --}}` and `{{-- [ALTERADO] panel-theme-isolation --}}`).
+The overridden views are copies of Filament's original views with minimal patches.
 
 After updating Filament, compare the original views with the overrides:
 
