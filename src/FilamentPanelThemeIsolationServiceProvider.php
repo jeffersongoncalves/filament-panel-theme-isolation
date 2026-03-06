@@ -21,7 +21,7 @@ class FilamentPanelThemeIsolationServiceProvider extends PackageServiceProvider
         $this->callAfterResolving('view', function ($view) {
             /** @var \Illuminate\View\FileViewFinder $finder */
             $finder = $view->getFinder();
-            $finder->prependNamespace('filament-panels', __DIR__ . '/../resources/views');
+            $finder->prependNamespace('filament-panels', __DIR__.'/../resources/views');
         });
     }
 }
