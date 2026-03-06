@@ -66,7 +66,7 @@ php artisan vendor:publish --tag=filament-panel-theme-isolation-views
 
 ## Maintenance Notes
 
-The overridden views are copies of Filament's original views with minimal patches (marked with `{{-- [ADICIONADO] panel-theme-isolation --}}` and `{{-- [ALTERADO] panel-theme-isolation --}}`).
+The overridden views are copies of Filament's original views with minimal patches.
 
 After updating Filament, compare the original views with the overrides:
 

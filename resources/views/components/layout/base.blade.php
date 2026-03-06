@@ -64,7 +64,7 @@
                 --sidebar-width: {{ filament()->getSidebarWidth() }};
                 --collapsed-sidebar-width: {{ filament()->getCollapsedSidebarWidth() }};
                 --default-theme-mode: {{ filament()->getDefaultThemeMode()->value }};
-                --panel-id: '{{ filament()->getId() }}'; {{-- [ADICIONADO] panel-theme-isolation --}}
+                --panel-id: '{{ filament()->getId() }}';
             }
         </style>
 
@@ -74,16 +74,16 @@
 
         @if (! filament()->hasDarkMode())
             <script>
-                localStorage.setItem('theme-{{ filament()->getId() }}', 'light') {{-- [ALTERADO] panel-theme-isolation --}}
+                localStorage.setItem('theme-{{ filament()->getId() }}', 'light')
             </script>
         @elseif (filament()->hasDarkModeForced())
             <script>
-                localStorage.setItem('theme-{{ filament()->getId() }}', 'dark') {{-- [ALTERADO] panel-theme-isolation --}}
+                localStorage.setItem('theme-{{ filament()->getId() }}', 'dark')
             </script>
         @else
             <script>
                 const loadDarkMode = () => {
-                    window.theme = localStorage.getItem('theme-{{ filament()->getId() }}') ?? localStorage.getItem('theme') ?? @js(filament()->getDefaultThemeMode()->value) {{-- [ALTERADO] panel-theme-isolation --}}
+                    window.theme = localStorage.getItem('theme-{{ filament()->getId() }}') ?? localStorage.getItem('theme') ?? @js(filament()->getDefaultThemeMode()->value)
 
                     if (
                         window.theme === 'dark' ||
