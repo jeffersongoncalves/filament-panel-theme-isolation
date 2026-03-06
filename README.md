@@ -22,6 +22,8 @@ Based on [filamentphp/filament#19417](https://github.com/filamentphp/filament/pu
 
 ## Installation
 
+You can install the package via composer:
+
 ```bash
 composer require jeffersongoncalves/filament-panel-theme-isolation:"^3.0"
 ```
