@@ -12,11 +12,6 @@ class FilamentPanelThemeIsolationPlugin implements Plugin
         return app(static::class);
     }
 
-    public static function get(): static
-    {
-        return filament(app(static::class)->getId());
-    }
-
     public function getId(): string
     {
         return 'filament-panel-theme-isolation';
