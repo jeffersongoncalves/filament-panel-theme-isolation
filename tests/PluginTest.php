@@ -4,7 +4,8 @@ use Filament\Facades\Filament;
 use JeffersonGoncalves\FilamentPanelThemeIsolation\FilamentPanelThemeIsolationPlugin;
 
 it('registers the plugin', function () {
-    $plugin = Filament::getCurrentPanel()->getPlugin('filament-panel-theme-isolation');
+    $panel = Filament::getCurrentPanel() ?? Filament::getPanel('admin');
+    $plugin = $panel->getPlugin('filament-panel-theme-isolation');
 
     expect($plugin)->toBeInstanceOf(FilamentPanelThemeIsolationPlugin::class);
 });
