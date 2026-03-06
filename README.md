@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/2.x/art/jeffersongoncalves-filament-panel-theme-isolation.png)
+![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/3.x/art/jeffersongoncalves-filament-panel-theme-isolation.png)
 
 </div>
 
@@ -23,7 +23,7 @@ Based on [filamentphp/filament#19417](https://github.com/filamentphp/filament/pu
 ## Installation
 
 ```bash
-composer require jeffersongoncalves/filament-panel-theme-isolation:"^2.0"
+composer require jeffersongoncalves/filament-panel-theme-isolation:"^3.0"
 ```
 
 That's it! The plugin works automatically via Laravel auto-discovery. No additional configuration is needed.
