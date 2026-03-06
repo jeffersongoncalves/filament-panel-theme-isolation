@@ -6,6 +6,10 @@
 
 # Filament Panel Theme Isolation
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-panel-theme-isolation.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-panel-theme-isolation)
+[![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-panel-theme-isolation.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-panel-theme-isolation)
+[![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-panel-theme-isolation.svg?style=flat-square)](LICENSE.md)
+
 Isolates dark/light theme preference per Filament panel using prefixed localStorage keys.
 
 When a Filament application has multiple panels (e.g., `admin`, `app`, `tenant`), they all share the same `theme` key in `localStorage`. Switching dark/light mode in one panel affects all others. This plugin fixes that by using panel-specific keys like `theme-admin`, `theme-app`, etc.
