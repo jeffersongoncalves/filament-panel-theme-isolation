@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/2.x/art/jeffersongoncalves-filament-panel-theme-isolation.png)
+![Filament Panel Theme Isolation](https://raw.githubusercontent.com/jeffersongoncalves/filament-panel-theme-isolation/2.x/art/jeffersongoncalves-filament-panel-theme-isolation.jpg)
 
 </div>
 
