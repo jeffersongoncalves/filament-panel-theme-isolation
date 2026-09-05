@@ -83,6 +83,18 @@ diff vendor/filament/filament/packages/panels/resources/views/components/layout/
      vendor/jeffersongoncalves/filament-panel-theme-isolation/resources/views/components/layout/base.blade.php
 ```
 
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Security Vulnerabilities
+
+Please see [SECURITY](.github/SECURITY.md) for details.
+
+## Credits
+
+- [Jefferson Gonçalves](https://github.com/jeffersongoncalves)
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
